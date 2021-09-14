@@ -18,15 +18,14 @@ public class Practice {
     }
 
 
-    public static Boolean isMultipleOf3(Integer value) {
-        if (value % 3 == 0) {
+    public static Boolean multipleOf3(Integer num){
+        if (num % 3 == 0) {
             return true;
-        } else {
+        }else{
             return false;
         }
-
-
     }
+
 
 }
 //

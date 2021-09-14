@@ -83,7 +83,7 @@ public class PacticeTest {
 
     private void test(Integer value, Boolean expectedOutcome) {
         // when
-        Boolean actualOutcome = Practice.isMultipleOf3(value);
+        Boolean actualOutcome = Practice.multipleOf3(value);
 
         // then
         Assert.assertEquals(actualOutcome, expectedOutcome);
