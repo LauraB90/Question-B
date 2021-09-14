@@ -75,10 +75,7 @@ public class PacticeTest {
         test(6, true);
     }
 
-    @Test
-    public void test5() {
-        test(9, true);
-    }
+
 
 
     private void test(Integer value, Boolean expectedOutcome) {
