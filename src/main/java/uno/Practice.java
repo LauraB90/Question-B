@@ -6,7 +6,7 @@ public class Practice {
 
 
         for (int i = 0; i < integerArray.length; i++) {
-            if (integerArray[i]  % 2 == 0) {
+            if (integerArray[i] % 2 == 0) {
                 integerArray[i]++;
 
             } else {
@@ -16,4 +16,16 @@ public class Practice {
         }
         return integerArray;
     }
+
+
+    public static Boolean isMultipleOf3(Integer value) {
+        if (value % 3 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+
+
+    }
+
 }
