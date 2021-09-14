@@ -89,5 +89,37 @@ public class PacticeTest {
         Assert.assertEquals(actualOutcome, expectedOutcome);
     }
 
+
+    @Test
+    public void test6() {
+        test("Feelers", "er", "slF");
+    }
+
+    @Test
+    public void test7() {
+        test("Takers", "ers", "kaT");
+    }
+
+    @Test
+    public void test8() {
+        test("Takers", "res", "kaT");
+    }
+
+    @Test
+    public void test9() {
+        test("breaking", "kaer", "gnib");
+    }
+
+    private void test(String stringToManipulate, String charactersToRemove, String expected) {
+        // when
+        String actual = Practice.removeAndRev(stringToManipulate, charactersToRemove);
+
+        // then
+        Assert.assertEquals(expected, actual);
+    }
+
+
+
+
 }
 

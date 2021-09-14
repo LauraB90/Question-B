@@ -38,7 +38,6 @@ public class Practice {
                 }
             }
         }
-
         return new StringBuilder(string).reverse().toString();
     }
 
