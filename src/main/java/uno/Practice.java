@@ -26,6 +26,21 @@ public class Practice {
         }
     }
 
+// remove characters and reverse
+    public static String removeAndRev(String string, String charactersToRemove) {
+
+
+        char [] nv = charactersToRemove.toCharArray();
+        for( char i : nv){
+            for(char index : string.toCharArray()) {
+                if (index == i){
+                    string = string.replace(index + "", "");
+                }
+            }
+        }
+
+        return new StringBuilder(string).reverse().toString();
+    }
 
 }
-//
+
