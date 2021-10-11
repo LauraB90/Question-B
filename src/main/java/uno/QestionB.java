@@ -3,7 +3,6 @@ package uno;
 public class QestionB {
 
 
-
    public static Integer getSum(Integer [] intArr){
        Integer a = 0;
        for(Integer i : intArr){
@@ -17,11 +16,7 @@ public class QestionB {
 return Double.valueOf(getSum(intArr)/ intArr.length);
 
 
-
-
     }
-
-
 
 }
 

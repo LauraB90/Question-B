@@ -1,8 +1,13 @@
 # Questionnere B
 
+(if having trouble downloading it, it is also here https://github.com/LauraB90/Question-B.git)
+
+
 1st download as a zip file
 
-2nd run test cases on machine.
+2nd run test cases.
+
+
 
 #steps 
 1. code to sum everything together. 
