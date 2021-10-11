@@ -9,7 +9,7 @@
         <module name="javaProblems" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="javaProblems" target="8" />
     </bytecodeTargetLevel>
   </component>
